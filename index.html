@@ -6,66 +6,242 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>E-commerce</title>
   </head>
-  <body class="font-Montserrat">
+  <body class="text-gray-700 font-Montserrat">
     <header>
       <h2>Project header part hear</h2>
     </header>
     <main>
       <h2>main content will go on here</h2>
     </main>
-    <footer class="flex bg-[#f0f0f0] flex-col mt-96">
-      <div class="container px-5 mx-auto">
-        <div class="p-10 -mt-24 bg-black rounded-lg">
-          <div
-            class="flex flex-col items-start justify-between gap-8 md:flex-row"
-          >
-            <div class="w-full md:w-2/3">
-              <h2
-                class="pr-0 text-4xl font-bold leading-10 uppercase text-slate-100 md:pr-60"
-              >
-                STAY UPTO DATE ABOUT OUR LATEST OFFERS
-              </h2>
+    <footer>
+      <div class="flex bg-[#f0f0f0] flex-col mt-96 py-10">
+        <div class="container px-5 mx-auto">
+          <!-- top footer -->
+          <div class="p-10 -mt-48 bg-black rounded-lg md:-mt-32">
+            <div
+              class="flex flex-col items-start justify-between gap-8 md:flex-row"
+            >
+              <div class="w-full md:w-2/4 lg:w-3/5 xl:1/3">
+                <h2
+                  class="pr-0 text-4xl font-bold leading-10 uppercase md:text-3xl lg:text-4xl text-slate-100 xl:pr-16"
+                >
+                  STAY UPTO DATE ABOUT OUR LATEST OFFERS
+                </h2>
+              </div>
+              <div class="w-full md:w-2/4 lg:2/5 xl:2/3">
+                <form action="#">
+                  <div class="relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="absolute w-5 h-5 top-[10px] left-[10px] opacity-50"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                      />
+                    </svg>
+                    <input
+                      class="w-full px-4 py-2 pl-10 rounded-full"
+                      type="email"
+                      name="email"
+                      id="email"
+                      \
+                      placeholder="Enter your email address"
+                    />
+                  </div>
+
+                  <button
+                    type="submit "
+                    class="w-full px-4 py-2 mt-3 font-medium bg-white rounded-full"
+                  >
+                    Subscribe to Newsletter
+                  </button>
+                </form>
+              </div>
             </div>
-            <div class="w-full md:w-1/3">
-              <form action="#">
-                <div class="relative">
-                  <svg
+          </div>
+          <!-- middle footer   -->
+          <div
+            class="flex flex-col justify-between gap-4 py-8 border-b-2 border-gray-200 md:flex-row"
+          >
+            <!-- logo and social media -->
+            <div class="w-full space-y-5 overflow-hidden md:w-2/4 lg:w-1/4">
+              <h5 class="logo">Shop.Co</h5>
+              <p class="text-sm text-base tracking-wide text-extralight">
+                We have clothes that suits your style and which you’re proud to
+                wear. From women to men.
+              </p>
+              <!-- social media -->
+              <div class="flex gap-4">
+                <a
+                  href="www.twitter.com"
+                  class="footer-social-icon"
+                  target="_blank"
+                  ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="absolute w-5 h-5 top-[10px] left-[10px] opacity-50"
+                    x="0px"
+                    y="0px"
+                    class="w-6 h-6"
+                    viewBox="0 0 30 30"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-                    />
-                  </svg>
-                  <input
-                    class="w-full px-4 py-2 pl-10 rounded-full"
-                    type="email"
-                    name="email"
-                    id="email"
-                    \
-                    placeholder="Enter your email address"
-                  />
-                </div>
-
-                <button
-                  type="submit "
-                  class="w-full px-4 py-2 mt-3 font-medium bg-white rounded-full"
+                      d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"
+                    ></path></svg
+                ></a>
+                <a
+                  href="www.facebook.com"
+                  class="footer-social-icon"
+                  target="_blank"
                 >
-                  Subscribe to Newsletter
-                </button>
-              </form>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    class="w-6 h-6"
+                    viewBox="0 0 30 30"
+                  >
+                    <path
+                      d="M12,27V15H8v-4h4V8.852C12,4.785,13.981,3,17.361,3c1.619,0,2.475,0.12,2.88,0.175V7h-2.305C16.501,7,16,7.757,16,9.291V11 h4.205l-0.571,4H16v12H12z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  class="footer-social-icon"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    class="w-6 h-6"
+                    viewBox="0 0 50 50"
+                  >
+                    <path
+                      d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="www.github.com"
+                  class="footer-social-icon"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    class="w-6 h-6"
+                    viewBox="0 0 30 30"
+                  >
+                    <path
+                      d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- other info -->
+            <div
+              class="grid justify-between w-full grid-cols-2 gap-5 md:grid-cols-4 lg:w-3/4"
+            >
+              <div>
+                <h3 class="footer-menu-title">Company</h3>
+                <ul class="footer_menu">
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Features</a>
+                  </li>
+                  <li>
+                    <a href="#">Works</a>
+                  </li>
+                  <li>
+                    <a href="#">Career</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 class="footer-menu-title">Help</h3>
+                <ul class="footer_menu">
+                  <li>
+                    <a href="#">Customer Support</a>
+                  </li>
+                  <li>
+                    <a href="#">Delivery Details</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms & Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="footer-menu-title">Faq</h3>
+                <ul class="footer_menu">
+                  <li>
+                    <a href="#">Account</a>
+                  </li>
+                  <li>
+                    <a href="#"> Manage Deliveries </a>
+                  </li>
+                  <li>
+                    <a href="#">Orders</a>
+                  </li>
+                  <li>
+                    <a href="#">Payment</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="footer-menu-title">RESOURCES</h3>
+                <ul class="footer_menu">
+                  <li>
+                    <a href="#">Free eBook</a>
+                  </li>
+                  <li>
+                    <a href="#"> Development Tutorial</a>
+                  </li>
+                  <li>
+                    <a href="#">How to - Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Youtube Playlist</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer bootom -->
+          <div
+            class="flex flex-col items-center justify-between gap-5 mt-5 md:gap-0 md:flex-row"
+          >
+            <p class="text-sm font-light text-gray-700">
+              <a href="#">Shop.co </a>Copyright &copy; , All Rights Reserved
+            </p>
+
+            <div class="flex gap-4">
+              <img src="./assets/images/Visa.png" alt="visa" />
+              <img src="./assets/images/Mastercard.png" alt="marstercard" />
+              <img src="./assets/images/Paypal.png" alt="paypal" />
+              <img src="./assets/images/G Pay.png" alt="G-pay" />
+              <img src="./assets/images/ Pay.png" alt="pay" />
             </div>
           </div>
         </div>
       </div>
 
-      <div>Copyright &copy; 2024</div>
+      <!-- bottom footer   -->
     </footer>
 
     <script src="assets/js/main.js"></script>

@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.logo {
+  @apply text-2xl font-bold text-gray-900 uppercase md:text-4xl;
+}
+.footer-social-icon {
+  @apply inline-block p-2 overflow-hidden transition duration-300 ease-in-out bg-white border-2 border-gray-300 rounded-full outline-none hover:bg-black hover:fill-white ring-0 hover:border-black;
+}
+.footer-menu-title {
+  @apply uppercase leading-5 font-semibold tracking-[3px];
+}
+.footer_menu {
+  @apply pt-6 space-y-3 text-base font-normal md:text-xs lg:text-base;
+}
