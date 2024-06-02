@@ -903,6 +903,17 @@ video {
   }
 }
 
+.payment_method_icon{
+  display: flex;
+  width: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 @media (min-width: 768px){
   .md\:-mt-32{
     margin-top: -8rem;
