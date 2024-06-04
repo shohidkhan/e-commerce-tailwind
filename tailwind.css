@@ -18,3 +18,9 @@
 .payment_method_icon {
   @apply flex items-center justify-center py-2 bg-white w-14;
 }
+.nav-link {
+  @apply text-base font-normal text-gray-900 md:text-sm hover:text-rose-500;
+}
+.mobile_menu {
+  @apply -translate-x-[470px];
+}
